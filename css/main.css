@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* fuentes de texto */
+    font-family: Arial, Helvetica, sans-serif;
+    /* tamano de fuente  */
+    font-size: 13px;
+}
+
+/* ****************** */
+/* ************ */
+/* Navegacion */
+header {
+    /* width-ancho /// height-alto */
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    /* Justificar a la derecha */
+    /* Nos habilita usar flex-start, flex-end*/
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    /* eliminar puntos de la lista  */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /* centrado verticalmente */
+    align-items: center;
+    text-decoration: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    cursor: hand;
+    /* eliminar linea de bajo de texto */
+    text-decoration: underline;
+}
+nav .nav-right-section a{
+    color: #000000;
+    margin-right: 20px;
+    
+}
+nav .nav-right-section .menu{
+    background-image: url(//img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    /* que la imagen este contenida en el elemento mas grande */
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    /* para eliminar el icono repetido */
+    background-repeat: no-repeat;
+}
+
+/* imagen del usuario */
+nav .nav-right-section img{
+    /* redondiando bordes */
+    border-radius: 100%;
+    /* cambiar tamano de la imagen */
+    width: 45%;
+    height: 45%;
+    margin-left: 20px;
+}
+
+/* main */
+main {
+    margin-top: 80px;
+    text-align: center;
+}
+main .main-logo{
+    width: 538px;
+    margin: 0 auto;
+}
+main .main-logo img{
+    height: 100px;
+}
+main .main-input{
+    width: 538px;
+    margin: 0 auto;
+}
+main .main-input-container{
+    /* ancho border|| border-estilo|| border color */
+    border: 2px solid #dfe1e5;
+    border-radius: 20px;
+    width: 525px;
+}
+main .main-input input{
+    height: 35px;
+    /* quitar el borde */
+    border: none;
+    /* quitar el borde cuando esta activo el input */
+    outline: none;
+    width: 410px;
+}
+main .main-input-container:hover{
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(217, 215, 215);
+}
+main .main-input .search-icon{
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    background-size: contain;
+    padding-left: 3%;
+    background-repeat: no-repeat;
+}
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-size: contain;
+    padding-left: 7%;
+    background-repeat: no-repeat;
+}
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    background-size: contain;
+    padding-left: 4%;
+    background-repeat: no-repeat;
+}
+main .botones{
+    display: flex;
+    margin-top: 30px; 
+    justify-content: center;
+}
+main .buscar{
+    margin-right: 50px ;  
+    border: 0;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+}
+main .buscar:hover{
+    box-shadow: 1px 01px 1px 0.5px rgb(217, 215, 215);
+}
+main .suerte{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+}
+main .suerte:hover{
+    box-shadow: 1px 1px 1px 1px rgb(217, 215, 215);
+}
+footer .footer-total{
+    background-color: #f2f2f2;
+    margin-top: 235px;
+    height: 100px;
+}
+footer .footer-alto{
+    padding: 15px 30px;
+    font-size: 15px;
+    color: #2a3643;
+    display: flex;
+    flex-wrap: wrap;  
+    border-bottom: 1px solid #e0dadf;
+}
+footer .footer-bajo{
+    padding: 5px 30px;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap
+}
+footer div .footer-bajo{
+     /* eliminar puntos de la lista  */
+     list-style: none;   
+}
+div .footer-bajo a{
+    color: #2a3643;
+    margin-right: 14px;
+}
+.pref{
+    margin-left: 750%;
+}
+.con{
+    margin-left: 756%;
+}
+.priv{
+    margin-left: 850%;
+}
